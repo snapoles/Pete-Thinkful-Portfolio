@@ -1,15 +1,30 @@
 /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
+/* Header */
+header{
+  text-align: center;
+}
+
+nav a{
+  padding: 0 20px; /* space to the right of each item */
+}
+
+.image-circle {
+  border-radius: 50%;
+  background-color: #003049;
+  padding: 2px;
+}
+
+
+
+/* Body */
 body {
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 40px;
+  padding-left: 200px;
+  padding-right: 200px;
   background-color: #eae2b7;
-}
-
-nav{
-  text-align: center;
 }
 
 div{
@@ -33,6 +48,7 @@ h3 {
   font-size: 20px;
 }
 
+/* Articles */
 article {
   padding: 50px 0;
 }
@@ -41,13 +57,9 @@ article div {
   width: 100%;
 }
 
-p {
-  line-height: 1.5;
-  text-align: left;
-}
 
-/* The div container constrains the content width within the main container to 600px */
 
+/* Images */
 img {
   width: 100%;
   max-width: 200px;
@@ -58,15 +70,7 @@ hr {
   border: 1px solid black;
 }
 
-/* Add your solution below */
-
-.image-circle {
-  border-radius: 50%;
-  background-color: #003049;
-  padding: 2px;
-}
-
-/* Links */
+/* Links - Ordered List */
 a:link {color: #d62828;}
 a:visited {color: #d62828;}
 a:hover {color: #f77f00;}
@@ -77,6 +81,7 @@ a:active {color: #d62828;}
   text-align: left;
 }
 
+/* Footer */
 footer{
   text-align:center;
 }
